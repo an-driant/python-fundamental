@@ -26,13 +26,9 @@ if jumlah_botol_susu > 0:
         print("Budi membeli satu botol susu")
     else:
         print("Telur ada")
-        print("Budi membeli 1 botol susu dan 6 butir telur")
+        print("Budi membeli 6 botol susu")
 else:
-    print("Budi bertanya apakah ada telur")
-    if jumlah_telur == 0:
-        print("Budi tidak membeli apapun")
-    else:
-        print("Budi hanya membeli 6 butir telur")
+    print("Budi tidak jadi membeli 1 botol susu")
 
 print("Budi pulang ke rumah")
 print("Budi menyampaikan hasilnya kepada ibu")
